@@ -15,13 +15,13 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '23157213'))
 API_HASH = environ.get('API_HASH', 'a6b46c6dd8cd227a603304e8ff83d3af')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8088953973:AAH8qUgefE3fzLqlVpv1ix1AQOVvKWCTLjg')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7263813608:AAGyiiPprPbaSJWAqhDcMwvkmVd3CSMxaPU')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7750976141 5657118987 7858727461 6859451629').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/iamproton") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002374007942'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+P2j12CGb3f82Nzk1')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002364581627'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+nGc_VY24BzExZDdl')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002335510269 ').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -39,14 +39,14 @@ S_DB_URI = environ.get('S_DB_URI', "mongodb+srv://ahamdev7:ahamdev7@cluster0.3jv
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002374007942'))  # set shortner log channel
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002374007942')) # The movie you upload in it will be deleted from the bot.
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002374007942'))
-auth_channel = environ.get('AUTH_CHANNEL', '-1002478219970')
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002364581627'))  # set shortner log channel
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002364581627')) # The movie you upload in it will be deleted from the bot.
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002364581627'))
+auth_channel = environ.get('AUTH_CHANNEL', '-1002366239512')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002387334817'))
 request_channel = environ.get('REQUEST_CHANNEL', 'LOG_CHANNEL') # If anyone sends a request message to your bot, you will get it in this channel.
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002478219970')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+lKAjeb-dwJxiNzRl') #Support group link ( make sure bot is admin )
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002211272813')) # 
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+15mYmaVPdCphZDc1') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
@@ -55,12 +55,12 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/+c3f2GkEdLGI1Mjc9")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/+c3f2GkEdLGI1Mjc9")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/+c3f2GkEdLGI1Mjc9")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "28db04133d09c9d717ba2dba016ee8bee6f61f31")
+SHORTENER_API = environ.get("SHORTENER_API", "3900167d259e395a6ff8abf5e0b8ea64ca4632c8")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'sushilurl.com')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "25cb52a635dd2ae939a4a4330364fce74580a777")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'runurl.in')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "0607171640e2a882a6d882f0f84d5593646549d2")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'v2links.com')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "3900167d259e395a6ff8abf5e0b8ea64ca4632c8")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'sushilurl.com')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "3900167d259e395a6ff8abf5e0b8ea64ca4632c8")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'sushilurl.com')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
